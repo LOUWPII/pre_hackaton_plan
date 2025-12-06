@@ -1,0 +1,20 @@
+[project]
+name = "pre-hack-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.123.4",
+    "google-genai>=1.52.0",
+    "numpy>=2.3.5",
+    "pypdf>=6.4.0",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "supabase>=2.25.0",
+    "tqdm>=4.67.1",
+    "uvicorn[standard]>=0.38.0",
+    "openai-whisper>=20230402",
+    "torch>=2.1.0",
+]

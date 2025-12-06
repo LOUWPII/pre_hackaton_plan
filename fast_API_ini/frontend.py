@@ -97,7 +97,7 @@ def create_transformed_url(original_url, transformation_params, caption=None):
     if caption:
         encoded_caption = encode_text_for_overlay(caption)
         # Add text overlay at bottom with semi-transparent background
-        text_overlay = f"l-text,ie-{encoded_caption},ly-N20,lx-20,fs-100,co-white,bg-000000A0,l-end"
+        text_overlay = f"l-text,ie-{encoded_caption},ly-N10,lx-20,fs-100,co-white,bg-000000A0,l-end"
         transformation_params = text_overlay
 
     if not transformation_params:

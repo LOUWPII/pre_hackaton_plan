@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Añade estilos globales de React aquí (opcional) */
+
+/* Clases CSS personalizadas para el efecto 3D flip de las tarjetas */
+/* Necesarias porque algunas propiedades no se pueden aplicar directamente como clases de Tailwind */
+.perspective-1000 {
+    perspective: 1000px;
+}
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+.backface-hidden {
+    /* Oculta la parte trasera del elemento al rotar */
+    backface-visibility: hidden;
+}
